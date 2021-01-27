@@ -1,0 +1,197 @@
+/* Обнуляющий стиль */
+
+/* 
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+img {
+  vertical-align: top;
+}
+*/
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: inherit;
+  font-size: inherit;
+}
+
+li {
+  list-style: none;
+}
+a,
+a:visited {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+}
+/* ===================================== */
+
+/* Общие */
+
+body {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+p a {
+  color: rgb(206, 71, 53);
+  font-size: 17px;
+}
+mark {
+  color: white;
+  background-color: rgb(33, 60, 70);
+}
+/* ====================================== */
+/* Header */
+h1 {
+  color: hsl(0, 63%, 54%);
+  font-size: 50px;
+  font-weight: 600;
+}
+.nav__menu a {
+  color: rgb(65, 49, 31);
+  font-size: 20px;
+}
+.nav__menu-2 a {
+  color: rgb(106, 197, 57);
+  font-size: 18px;
+}
+.nav__menu-3 a {
+  color: rgb(199, 84, 84);
+  font-size: 16px;
+}
+/* ==================================== */
+
+/* Заголовки */
+.big-block__title {
+  color: rgb(98, 23, 13);
+  font-size: 40px;
+  font-weight: 500;
+}
+.small-block__title {
+  font-size: 30px;
+  font-weight: 700;
+}
+.small-block__subtitle {
+  font-size: 20px;
+  font-weight: 600;
+}
+/* ========================================= */
+
+/* Block-1 */
+
+.block-1 {
+  color: goldenrod;
+}
+.block-1 p {
+  font-size: 18px;
+}
+.block-1__list a {
+  color: rgb(42, 105, 144);
+}
+/* ========================================== */
+
+/* Block-2 */
+.block-2__big-txt > p {
+  color: rgb(82, 82, 194);
+}
+.block-2 .big-block__title {
+  color: purple;
+}
+.block-2__text {
+  font-size: 17px;
+}
+.text-purple.block-2__text {
+  color: indigo;
+}
+.text-pink.block-2__text {
+  color: hotpink;
+}
+/* ========================== */
+
+/* Block-3 */
+
+.block-3 .big-block__title {
+  color: rgb(69, 122, 33);
+}
+.block-3 .small-block__title {
+  color: rgb(195, 178, 64);
+}
+.block-3 p {
+  color: rgb(76, 139, 28);
+}
+.block-3 ul {
+  color: rgb(58, 57, 17);
+}
+.block-3 .small-block span {
+  font-size: 25px;
+  font-weight: 600;
+  color: rgb(51, 100, 89);
+}
+.block-3 a {
+  color: rgb(65, 49, 31);
+}
+/* =============================== */
+
+/* Block-4 */
+.block-4 .big-block__title {
+  color: rgb(65, 84, 141);
+}
+.block-4 {
+  color: palevioletred;
+}
+.block-4 .small-block__title {
+  color: rgb(218, 187, 53);
+}
+.block-4 .small-block {
+  color: rgb(77, 71, 7);
+}
+.block-4 .small-block a {
+  color: palevioletred;
+}
+.block-4 .small-block span {
+  background-color: rgb(175, 120, 139);
+  color: rgb(255, 255, 255);
+}
+.small-block__item {
+}
+.small-block__item .small-block__subtitle {
+  color: rgb(19, 89, 143);
+}
+.items-block .small-block__title {
+  color: rgb(38, 59, 17);
+}
+.items-block p {
+  color: darkcyan;
+}
+.items-block .small-block__item a {
+  color: rgb(117, 143, 14);
+}
+/* ============================ */
+
+/* Block-5 */
+
+.block-5 h2 {
+  color: rgb(197, 76, 153);
+}
+.block-5 {
+  color: rgb(121, 17, 31);
+}
+/* ================================ */
+
+/* Footer */
+.footer {
+  font-size: 18px;
+  line-height: 30px;
+  color: rgb(0, 0, 0);
+}
+.footer a {
+  color: rgb(0, 0, 0);
+}
